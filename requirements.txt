@@ -1,0 +1,22 @@
+# Yandex Music Downloader - Dependencies
+# Совместимо с Python 3.8+
+
+# Yandex Music API
+yandex-music>=2.1.1
+
+# GUI
+PyQt5>=5.15.9
+PyQt5-Qt5>=5.15.2
+PyQt5-sip>=12.11.0
+
+# Security
+cryptography>=41.0.0
+
+# Metadata (ID3 tags)
+mutagen>=1.47.0
+
+# Network
+requests>=2.31.0
+
+# Utilities
+Pillow>=10.0.0
