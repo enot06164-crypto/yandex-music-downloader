@@ -55,6 +55,9 @@ desktop.ini
 .coverage
 htmlcov/
 
+# Installer output
+installer_output/
+
 # Temporary files
 tmp/
 temp/
