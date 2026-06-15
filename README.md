@@ -24,7 +24,7 @@
 
 ```bash
 # Клонирование
-git clone <repository-url>
+git clone <[repository-url](https://github.com/enot06164-crypto/yandexdownloader-)>
 cd yandexdownloader
 
 # Виртуальное окружение
