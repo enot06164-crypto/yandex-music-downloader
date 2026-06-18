@@ -1595,7 +1595,7 @@ class MainWindow(QMainWindow):
         QMessageBox.about(
             self, "О программе",
             "<h2 style='color: #7aa2f7;'>Yandex Music Downloader</h2>"
-            "<p style='font-size: 14px;'>Версия: 1.0.0</p>"
+            "<p style='font-size: 14px;'>Версия: 0.1.1</p>"
             "<p style='font-size: 13px; color: #a9b1d6;'>"
             "Приложение для скачивания музыки из Яндекс.Музыки.</p>"
             "<p style='font-size: 12px; color: #565f89; margin-top: 16px;'>"

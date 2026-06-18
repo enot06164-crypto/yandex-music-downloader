@@ -6,7 +6,7 @@ Yandex Music Downloader
 Copyright (c) 2026. Использование должно соответствовать Условиям использования Яндекс.Музыки
 и законам об авторском праве.
 
-Версия: 1.0.0
+Версия: 0.1.1
 
 ================================================================================
 ДИСКЛЕЙМЕР
@@ -126,7 +126,7 @@ def setup_application() -> QApplication:
     # Устанавливаем организацию и имя приложения
     app.setOrganizationName('YandexMusicDownloader')
     app.setApplicationName('Yandex Music Downloader')
-    app.setApplicationVersion('1.0.0')
+    app.setApplicationVersion('0.1.1')
     
     # Устанавливаем темную тему
     app.setStyleSheet(get_dark_stylesheet())
