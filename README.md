@@ -247,3 +247,18 @@ MIT License — см. файл [LICENSE](LICENSE)
 ---
 
 **© 2026 Yandex Music Downloader**
+
+---
+
+## Installation / Установка
+
+### Linux (all formats)
+- **Source**: `git clone https://github.com/enot06164-crypto/yandex-music-downloader.git` then `pip install -r requirements.txt`
+- **PyPI**: `pip install yandex-music-downloader` (after publish)
+- **ELF binary (amd64)**: download `yandex-downloader-linux` from Releases, `chmod +x` and run
+- **.deb**: `sudo dpkg -i yandex-downloader-linux.deb`
+- **AppImage**: `chmod +x yandex-downloader.AppImage && ./yandex-downloader.AppImage`
+- **Source tar.gz**: `tar -xzf yandex-linux.tar.gz`
+
+### Windows
+- Download `YandexMusicDownloaderSetup.exe` or build with `build.bat`
