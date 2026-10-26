@@ -73,6 +73,18 @@ def get_hwid() -> str:
         except Exception:
             pass
 
+    elif sys.platform.startswith('linux'):
+        try:
+            with open('/etc/machine-id') as f:
+                return f"linux-mid-{f.read().strip()[:32]}"
+        except Exception:
+            pass
+        try:
+            import uuid
+            return f"linux-uuid-{str(uuid.getnode())}"
+        except Exception:
+            pass
+
     elif sys.platform == 'darwin':
         # macOS: IOPlatformSerialNumber
         import subprocess
