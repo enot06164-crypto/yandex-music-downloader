@@ -33,7 +33,15 @@ from pathlib import Path
 from typing import Optional
 from logging.handlers import RotatingFileHandler
 
-from PyQt5.QtWidgets import QApplication
+try:
+    try:
+    from PyQt5.QtWidgets import QApplication
+    HAS_QT = True
+except Exception:
+    HAS_QT = False
+    HAS_QT = True
+except Exception:
+    HAS_QT = False
 from PyQt5.QtCore import Qt, QCoreApplication
 from PyQt5.QtGui import QFont, QIcon, QFontDatabase
 
